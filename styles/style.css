@@ -1,6 +1,117 @@
 :root {
-    --primary-color: #3C3C3C;
-    --secondary-color: #F5F5F5;
-    --additional-color: #FF5A5F;
+  
+
+   
+    --primary-light-color: #ff0000;
+    --primary-dark-color: #00ff80;
+    --secondary-color: #8400ff;
+    --additional-color: #f2ff00;
     --font-stack: 'Helvetica Neue', sans-serif;
+    color-scheme: light dark;
+    --background-color: light-dark(--primary-dark-color, --primary-light-colors);
+    background-color: var(--background-color);
+    --color: light-dark(--primary-dark-color,--secondary-color);
+    
 }
+
+
+
+.title{
+    position: fixed;
+    color: var(--secondary-color);
+    font-family: var(--font-stack);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    text-align: center;
+    color-scheme: light dark;
+    color: var(--color);
+}
+
+.sub-title{
+    color: #cacacabc;
+    font-family: var(--font-stack);
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    margin-bottom: 2rem;
+    text-align: center;
+    color-scheme: light dark;
+    color: light-dark(#121212b6, #8c8c8c);
+    
+}
+
+.content-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content{
+    color: var(--color);
+    font-family: var(--font-stack);
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    margin-bottom: 2rem;
+    text-align: center;
+    /* padding: 15em; */
+}
+ 
+
+.popover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--additional-color);
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+}
+
+#mypopover{
+    color: #c3ff00;
+}
+
+
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--secondary-color);
+    height: 200px;
+    width: 20px;
+}
+
+.block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--secondary-color);
+    height: 200px;
+    width: 20px;
+}
+
+.block3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: var(--secondary-color);
+    height: 200px;
+    width: 20px;
+}
+
