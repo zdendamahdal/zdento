@@ -61,6 +61,14 @@
                     <li><strong>Gaming:</strong> CS2, Fortnite.</li>
                 </ul>
                 </section>
+
+                <section class="steam-data">
+                    <div id="profile">
+                        <p>Načítám data ze Steamu...</p>
+                    </div>
+
+                    
+                </section>
             </div>
         </section>
     </main>
@@ -74,5 +82,7 @@
             </div>
         </section>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
