@@ -18,20 +18,16 @@
         </section>
 
          <section >
-            <button popovertarget="mypopover" class="popover">
-                no vibe coding 
+            <button class="popover">
+                <a href="steamP.php">steam profile</a> 
             </button>
-            <p class="sub-title" popover id="mypopover">100% Human Made.</p>
+            
         </section>
         
     </header>
 
     <main>
-        <!-- <section class="blocks">
-            <div class="block1"></div>
-            <div class="block2"></div>
-            <div class="block3"></div>
-        </section> -->
+      
 
 
         <section class="content-section">
@@ -64,10 +60,7 @@
                 </ul>
                 </section>
 
-                <section class="steam-data">
-                    <div id="profile">
-                        <p>Načítám data ze Steamu...</p>
-                    </div>
+                
 
                     
                 </section>
