@@ -10,20 +10,7 @@
 
     
     <header>
-
-       
-
-        <section class="hero">
-            <h1 class="title">welcome in the hood</h1>
-        </section>
-
-         <section >
-            <button class="popover">
-                <a href="steamP.php">steam profile</a> 
-            </button>
-            
-        </section>
-        
+        <?php require_once("assets/header.php")?>       
     </header>
 
     <main>
