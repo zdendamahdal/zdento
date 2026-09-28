@@ -11,7 +11,7 @@
 <body>
 
 <header>
- <?php require_once("assets/header.php")?> 
+ <?php include("assets/header.php")?> 
 </header>
 <main>
     <section class="steam-data">
@@ -19,6 +19,8 @@
         <img id="avatar" src="" alt="Avatar">
         <h2 id="username">Načítám...</h2>
         <p id="online-status"></p>
+        <p id="date"></p>
+        <span id="hours"></span>
     </div>
 
     </section>
